@@ -25,6 +25,7 @@ public partial class GameActor
             cmpt = null;
             return null;
         }
+
         return cmpt;
     }
 
@@ -65,6 +66,7 @@ public partial class GameActor
         {
             return cmpt as T;
         }
+
         return null;
     }
 
